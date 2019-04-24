@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Spiritual Survey</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <img id="logo" src="https://cdn.glitch.com/fc982d8c-d285-4616-9def-5b88c9e74023%2Flogo3.png?1551782137049">
+    <h1 id="title">Spiritual Survey</h1>
+    <div id="main">
+     
+         
+    <p id="description">
+      Short insight in your Spiritual life by <a href="https://instagram.com/spiritualpilgrimage" target="_blank">Spiritual Pilgrimage</a>!
+    </p>
+       <form id="survey-form">
+          <fieldset id="personal">
+            <legend>
+              Personal Details
+            </legend>
+        <label id="name-label" class="labels" for="name">Name<input class="rightTab" id="name" type="text" placeholder="Enter Your Name"> </label><br/>
+         <label id="email-label" class="labels" for="email">Email<input class="rightTab" id="email" type="email" placeholder="Enter Your Name"> </label><br/>
+         <label id="number-label" class="labels" for="number">Age<input class="rightTab" id="number" placeholder="Enter your age" type="number" min="13" max="124"> </label><br/>
+         <label class="labels" for="gender">
+           Gender<select id="gender" class="rightTab" size="1">
+           <option value="Male">Male</option>
+           <option value="Female">Female</option>
+           <option value="Transgender">Transgender</option>
+           <option value="Secret" selected >Secret</option>
+           </select></label><br/>
+         <label class="labels" for="dropdown">
+           Occupation <select class="rightTab" id="dropdown" size="1">
+           <option value="Student">Student</option>
+           <option value="Job">Full Time Job</option>
+           <option value="Learner">Full Time Learner</option>
+           <option value="Secret" selected >Secret</option>
+           </select></label><br/>
+         </fieldset>
+         <fieldset>
+           
+        
+         <legend>How relevant is our content in your daily life</legend>
+         <label for="relevant"><input id="relevant" name="relevancy" type="radio">Very Relevant</label><br/>
+         <label for="somewhat"><input id="somewhat" name="relevancy" type="radio">Somwehat Relevant</label><br/>
+         <label for="idk"><input id="idk" name="relevancy" type="radio">I dont know</label><br/>
+         <label for="not"><input id="not" name="relevancy" type="radio">Not Relevant</label>
+           </fieldset> 
+         <fieldset>
+         <legend>Why do you practise Spirituality</legend>
+         <label for="peace"><input id="peace" name="reason" type="checkbox">Inner Peace</label><br/>
+         <label for="yoga"><input id="yoga" name="reason" type="checkbox">Yoga</label><br/>
+         <label for="poetry"><input id="poetry" name="reason" type="checkbox">Peotry</label><br/>
+         <label for="no"><input id="no" name="reason" type="checkbox">I have no reason</label><br/>
+           </fieldset>
+         <fieldset>
+           <legend>
+             Suggestions
+           </legend>
+         <textarea rows="4" cols="50" placeholder="I love to be here"></textarea>
+         <button id="submit" type="submit">
+           Submit
+         </button>
+           </fieldset>
+        
+        
+      </form>
+
+
+    </div>
+  </body>
+</html>
