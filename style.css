@@ -1,16 +1,21 @@
 /* CSS files add styling rules to your content */
-
+@import url('https://fonts.googleapis.com/css?family=Redressed|Quintessential|Aladin|Marck+Script|Merienda+One|Patrick+Hand|Rochester|Sriracha');
 body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-family: "Quintessential", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
+  font-size:20px;
   background-color:greenyellow;
 }
 #logo
 {
   position:absolute;
   height:10%;
-  width:5%;
-  
+  width:5%  
+}
+legend
+{
+  font-family: "Aladin";
+  font-size:30px;
 }
 #survey-form
 {
@@ -31,7 +36,8 @@ h1 {
 {
   text-align:center;
   padding:30px;
-  font-family:Raleway;
+  font-size:30px;
+  font-family:"Redressed";
     background-color:whitesmoke;
 }
 .labels {
